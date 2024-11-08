@@ -1,0 +1,5 @@
+{
+  "tasklog": "https://localhost:44358/api/APT2004/tasklog",
+  "TaskCompletion": "https://localhost:44358/api/APT2004/TaskCompletion/",
+  "GetNewTasks":"https://localhost:44358/api/APT2004/GetNewTasks"
+}

@@ -1,0 +1,70 @@
+/* General page styles */
+body {
+  background-color: #e3f2fd; /* Soft blue background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Centering the container and setting height */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Signup form styling */
+.signup-form {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff; /* White background */
+  padding: 30px; /* Added padding for spacious look */
+  border-radius: 10px; /* Softer, rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Header styling */
+.signup-form h2 {
+  color: #333333;
+  font-weight: bold;
+}
+
+/* Labels styling */
+.signup-form .form-label {
+  font-weight: 600;
+  color: #555555;
+}
+
+/* Input field styling */
+.signup-form .form-control {
+  border-radius: 5px;
+  border-color: #cfd8dc;
+}
+
+/* Button styling */
+.signup-form .btn-primary {
+  background-color: #1976d2;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form .btn-primary:hover {
+  background-color: #1565c0;
+}
+
+/* Link styling */
+.signup-form p a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.signup-form p a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .signup-form {
+    width: 90%;
+    padding: 20px;
+  }
+}
